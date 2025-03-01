@@ -1,4 +1,4 @@
-const link = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
+const link = "https://api.nasa.gov/planetary/apod?api_key=Ax9SO2QXENq1c9OdPubQK75wQaMeC8M4YECXUMzg";
 
 async function getData() {
     try {
