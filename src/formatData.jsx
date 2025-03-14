@@ -12,22 +12,20 @@ function App() {
         changeUrl(data["url"]);
         changeTitle(data["title"]);
         changeDiscription(data.explanation);
-      } catch(error) {
+      } catch (error) {
         console.error(error);
       }
     }
     fetchData();
-  }, [])
+  }, []);
 
   return (
     <>
       <h1>{title}</h1>
-      <img
-        src={url}
-      />
+      <img src={url} />
       <p>{discription}</p>
     </>
   );
-};
+}
 
 export default App;
